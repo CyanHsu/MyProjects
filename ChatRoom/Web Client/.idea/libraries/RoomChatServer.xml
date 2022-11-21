@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RoomChatServer">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/RoomChatServer.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

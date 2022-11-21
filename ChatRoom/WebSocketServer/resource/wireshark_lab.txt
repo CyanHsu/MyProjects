@@ -1,0 +1,33 @@
+Open the "Internet Protocol Version 4" section - what is the source address, the destination address? 
+->Source address is my IP address, destination address is classmate's IP address
+
+Open the Data section - how do the integer values compare with the ASCII that is displayed in the terminal? Does it match anything that we have seen before?
+->It uses Hex system in ASCII
+
+
+How long does it take a ping packet to travel to your classmate's machine and back? 
+-> ~13ms
+
+Try ping google.com. How long does it take these ping packets to travel?  
+-> ~55ms
+
+Try ping www.louvre.fr. How long does this take? 
+-> ~195ms
+
+What do these numbers tell you? 
+-> When distance between source and destination gets higher, the time becomes longer.
+
+Did you see more than you expected in the output? Can you figure out what other data was sent/received?
+
+what is the purpose of the curl program? 
+->curl is a tool for transfering data from or to a server.
+
+How are your results different / similar?
+->Similar
+
+What URL actually show's up when GitHub is loaded?
+->https://github.com
+
+Can you understand the output from Wireshark? Why can you only read the first couple of messages?
+->Because at the beginning I input http but it's transferred to https by the browser, so I can only read the first couple of messages before it's turned to https.
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table{
+            margin-right: auto;
+            margin-left: auto;
+        }
+        textarea{
+            resize:none;
+            overflow-x:hidden;
+            white-space: nowrap;
+        }
+        label{
+            font-family: Kai,serif;
+        }
+        .main{
+            margin: auto;
+        }
+        .scroll{
+            overflow: auto;
+        }
+        #userWindow{
+            border:thin solid black;
+            margin: 10px 5px 10px 10px;
+        }
+        #msgWindow{
+            border:thin solid black;
+            margin: 10px 10px 10px 5px;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Chat Room</title>
+
+
+</head>
+<body style="background-color: lightgray ;margin: auto">
+<h1 style="text-align: center; font-family: 'Arial Black',fantasy; color: steelblue" >Chat Room</h1>
+<table >
+
+    <tr>
+        <td style="padding: 5px"><label>User Name :</label></td>
+        <td style="padding: 15px"><textarea id="userName"></textarea></td>
+        <td style="padding: 5px"><label>Room Name :</label></td>
+        <td style="padding: 15px"><textarea id="roomName"></textarea></td>
+    </tr>
+
+
+</table>
+
+    <div class="main" style="display: flex;border: solid black; width: 1000px">
+        <div id="userWindow" class="scroll" style="background-color:rosybrown ; height: 500px ; width: 300px">
+            <blockquote id="userInRoom">People in the room</blockquote>
+        </div>
+
+        <div id="msgWindow" class="scroll"  style="background-color:rosybrown; height: 500px ; width: 700px">
+            <blockquote id="chatMsg" style="text-align: center">Chat msgs</blockquote>
+        </div>
+    </div>
+
+    <div class="main" style="display: flex; align-items: center; justify-content: center">
+        <label style="padding-right: 3px">Message:</label>
+        <textarea id ="msgText" style="margin-top: 5px"></textarea>
+    </div>
+
+
+
+
+<script type="text/javascript" src="chat.js"></script>
+</body>
+</html>

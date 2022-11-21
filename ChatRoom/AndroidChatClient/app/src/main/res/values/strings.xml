@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidChatClient</string>
+<!--    <string name = "room_name">room1</string>>-->
+</resources>
